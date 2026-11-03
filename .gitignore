@@ -1,0 +1,13 @@
+# personal runtime data
+config.json
+state.json
+digest_latest.md
+logs/
+run.lock
+run_hidden.vbs
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

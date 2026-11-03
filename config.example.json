@@ -1,0 +1,49 @@
+{
+  "channels": [
+    "179577"
+  ],
+  "profile": {
+    "grade": "大一",
+    "campus": "你的校区（如：南岭校区）",
+    "dorm": "你的公寓（如：12公寓）",
+    "extra_keywords": [],
+    "mute_keywords": [
+      "研究生",
+      "博士",
+      "教职工",
+      "博士后"
+    ]
+  },
+  "notify": {
+    "enabled": true,
+    "min_score": 40,
+    "important_score": 65,
+    "max_items": 6,
+    "max_chars": 1500,
+    "send_empty": false,
+    "quiet_start": "23:30",
+    "quiet_end": "07:00",
+    "urgent_score": 80,
+    "wechat_node": "",
+    "wechat_cli": ""
+  },
+  "fetch": {
+    "max_pages": 4,
+    "timeout": 20,
+    "delay": 0.6,
+    "retries": 2
+  },
+  "run": {
+    "retry_delays": [
+      60,
+      120
+    ]
+  },
+  "ai": {
+    "enabled": false,
+    "base_url": "",
+    "api_key": "",
+    "model": "",
+    "timeout": 60
+  }
+}
